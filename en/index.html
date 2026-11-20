@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ecos de Bruma — Echoes of Mist, free puzzle game for Android</title>
+<meta name="description" content="Ecos de Bruma (Echoes of Mist): a calm isometric puzzle of impossible geometry for Android. Free, no ads, works offline.">
+<meta property="og:title" content="Ecos de Bruma">
+<meta property="og:description" content="Ecos de Bruma (Echoes of Mist): a calm isometric puzzle of impossible geometry for Android. Free, no ads, works offline.">
+<meta property="og:image" content="https://ecosdebruma.github.io/img/titulo.webp">
+<link rel="alternate" hreflang="en" href="https://ecosdebruma.github.io/en/">
+<link rel="alternate" hreflang="en" href="https://ecosdebruma.github.io/">
+<meta name="theme-color" content="#FBF1E8">
+<link rel="icon" href="../favicon.png">
+<style>@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url(../fonts/cormorant-garamond-latin-500-italic.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/inter-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/inter-latin-600-normal.woff2) format('woff2')}
+html{scroll-behavior:smooth}*{box-sizing:border-box}img{max-width:100%}</style>
+
+<style>
+body{margin:0;background:#FBF1E8}
+a{color:#7A3446}a:hover{color:#4A4363}
+.shots::-webkit-scrollbar{height:8px}
+.shots::-webkit-scrollbar-thumb{background:#E3C3B8;border-radius:8px}
+</style>
+
+</head>
+<body>
+
+
+<div style="font-family: Inter, system-ui, sans-serif; color: #4A4363; background: #FBF1E8; min-height: 100vh">
+
+<!-- NAV -->
+<header style="max-width: 1180px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#inicio" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #3A3452">
+<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path d="M15 2 L27 9 L15 16 L3 9 Z" fill="#F4C9B8"/><path d="M3 9 L15 16 L15 28 L3 21 Z" fill="#C97A86"/><path d="M27 9 L15 16 L15 28 L27 21 Z" fill="#8E6C9E"/></svg>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600">Ecos de Bruma</span>
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; font-size: 15px; font-weight: 500">
+<a href="#juego" style="text-decoration: none; color: #4A4363; padding: 10px 0">The game</a>
+<a href="#capitulos" style="text-decoration: none; color: #4A4363; padding: 10px 0">Chapters</a>
+<a href="#instalar" style="text-decoration: none; color: #4A4363; padding: 10px 0">How to install</a>
+<a href="../" hreflang="es" lang="es" style="text-decoration: none; color: #4A4363; padding: 10px 0">Español</a>
+<a href="../EcosDeBruma.apk" download="EcosDeBruma.apk" style="text-decoration: none; background: #3A3452; color: #FFFFFF; padding: 12px 20px; border-radius: 999px">Download</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="inicio" style="background: linear-gradient(180deg, #FBF1E8 0%, #F7D9CB 100%)">
+<div style="max-width: 1180px; margin: 0 auto; padding: 48px 24px 88px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 0.28em; text-transform: uppercase; color: #6E6585">Echoes of Mist · A journey of light and perspective</p>
+<h1 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: clamp(56px, 9vw, 104px); line-height: 0.95; color: #3A3452">Ecos de Bruma</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; max-width: 520px">Guide Candil and his lantern through impossible architecture, where paths only exist when you look at them just right. Turn towers, slide bridges and shift your perspective to reach the light.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center">
+<a href="../EcosDeBruma.apk" download="EcosDeBruma.apk" style="display: inline-flex; align-items: center; gap: 12px; text-decoration: none; background: #3A3452; color: #FFFFFF; padding: 16px 28px; border-radius: 999px; font-size: 17px; font-weight: 600; min-height: 24px">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 20h16"/></svg>
+Download for Android
+</a>
+<a href="#juego" style="text-decoration: none; color: #3A3452; padding: 16px 20px; font-size: 16px; font-weight: 500; border-radius: 999px; border: 1.5px solid #CDB3B5">See the game</a>
+</div>
+<p style="margin: 0; font-size: 14px; color: #6E6585">Version 1.2.0 · Free APK · 229 KB · English &amp; Spanish · Android 5.0+ · Works offline</p>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; display: flex; justify-content: center">
+<div style="width: 300px; max-width: 100%; border-radius: 44px; padding: 12px; background: #3A3452; box-shadow: 0 40px 80px rgba(58, 52, 82, 0.28)">
+<img src="../img/titulo.webp" alt="Ecos de Bruma title screen with Candil in front of a pastel tower" style="display: block; width: 100%; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 34px">
+</div>
+</div>
+</div>
+</section>
+
+<!-- FEATURES -->
+<section id="juego" style="max-width: 1180px; margin: 0 auto; padding: 96px 24px">
+<div style="max-width: 640px; margin-bottom: 48px">
+<p style="margin: 0 0 12px; font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase; color: #8C4A5C">The game</p>
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: clamp(38px, 5vw, 56px); line-height: 1.05; color: #3A3452">A calm puzzle made of illusions</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#8E6C9E" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l9 5-9 5-9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600; color: #3A3452">Impossible geometry</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6">Line up the pieces and two distant paths become one. If it looks connected, you can walk on it.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#C0606F" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v4M12 16v4M4 12h4M16 12h4"/></svg>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600; color: #3A3452">15 chapters, each harder than the last</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6">Cranks, travelling bridges, tilting walls and Guijarro, a stubborn little block you push onto weight plates.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#5E7FA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V6l11-2v12"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>
+<h3 style="margin: 0; font-size: 20px; font-weight: 600; color: #3A3452">Calm and offline</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6">Soft ambient music, tuned for budget phones. No ads, no internet needed; your progress stays on your phone.</p>
+</div>
+</div>
+</section>
+
+<!-- CHAPTERS -->
+<section id="capitulos" style="background: #EEE8F7; padding: 96px 0">
+<div style="max-width: 1180px; margin: 0 auto; padding: 0 24px">
+<p style="margin: 0 0 12px; font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase; color: #6A5590">Chapters</p>
+<h2 style="margin: 0 0 12px; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: clamp(38px, 5vw, 56px); line-height: 1.05; color: #3A3452">Every world, its own light</h2>
+<p style="margin: 0 0 40px; font-size: 17px; line-height: 1.6; max-width: 560px">From pastel sunrise to starry night: each chapter brings its own palette, a poetic line and a glowing doorway waiting at the end.</p>
+</div>
+<div class="shots" style="display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 8px 24px 24px; max-width: 1228px; margin: 0 auto">
+
+<figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c02.webp" alt="Chapter II: a rotating bridge with a crank" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER II</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">The Turning Bridge</span>
+</figcaption>
+</figure><figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c03.webp" alt="Chapter III: a high bridge lined up with a distant path" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER III</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">What the Eye Joins</span>
+</figcaption>
+</figure><figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c09.webp" alt="Chapter IX: Guijarro, the companion block, next to a weight plate" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER IX</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">Guijarro</span>
+</figcaption>
+</figure><figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c10.webp" alt="Chapter X: an illusory staircase in a night landscape" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER X</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">The One-Sided Stair</span>
+</figcaption>
+</figure><figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c12.webp" alt="Chapter XII: a sliding cart carrying a rotating arm" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER XII</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">The Wandering, Turning Bridge</span>
+</figcaption>
+</figure><figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c14.webp" alt="Chapter XIV: a tilting wall with Guijarro nearby" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER XIV</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">The Wall and Guijarro</span>
+</figcaption>
+</figure><figure style="margin: 0; flex: 0 0 220px; scroll-snap-align: start; display: flex; flex-direction: column; gap: 14px">
+<img loading="lazy" src="../img/c15.webp" alt="Chapter XV: the final chapter, at night" style="display: block; width: 220px; aspect-ratio: 390 / 844; object-fit: cover; border-radius: 24px; box-shadow: 0 18px 40px rgba(58, 52, 82, 0.18)">
+<figcaption style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; letter-spacing: 0.2em; color: #6A5590; font-weight: 600">CHAPTER XV</span>
+<span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 600; color: #3A3452">The Last Echo</span>
+</figcaption>
+</figure>
+
+</div>
+</section>
+
+<!-- INSTALL -->
+<section id="instalar" style="max-width: 1180px; margin: 0 auto; padding: 96px 24px">
+<div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase; color: #8C4A5C">How to install</p>
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: clamp(38px, 5vw, 56px); line-height: 1.05; color: #3A3452">Ready in a minute</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6">Ecos de Bruma installs directly from its APK, without Google Play.</p>
+</div>
+<ol style="flex: 1 1 480px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px">
+<li style="display: flex; gap: 20px; align-items: flex-start; background: #FFFFFF; border-radius: 20px; padding: 24px">
+<span style="flex: 0 0 40px; height: 40px; border-radius: 999px; background: #F7D9CB; color: #3A3452; display: flex; align-items: center; justify-content: center; font-weight: 600">1</span>
+<div><h3 style="margin: 0 0 6px; font-size: 18px; color: #3A3452">Download the APK</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Tap “Download for Android” in your phone’s browser.</p></div>
+</li>
+<li style="display: flex; gap: 20px; align-items: flex-start; background: #FFFFFF; border-radius: 20px; padding: 24px">
+<span style="flex: 0 0 40px; height: 40px; border-radius: 999px; background: #F7D9CB; color: #3A3452; display: flex; align-items: center; justify-content: center; font-weight: 600">2</span>
+<div><h3 style="margin: 0 0 6px; font-size: 18px; color: #3A3452">Allow the install</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Open the file and, if asked, turn on “Install unknown apps” for your browser.</p></div>
+</li>
+<li style="display: flex; gap: 20px; align-items: flex-start; background: #FFFFFF; border-radius: 20px; padding: 24px">
+<span style="flex: 0 0 40px; height: 40px; border-radius: 999px; background: #F7D9CB; color: #3A3452; display: flex; align-items: center; justify-content: center; font-weight: 600">3</span>
+<div><h3 style="margin: 0 0 6px; font-size: 18px; color: #3A3452">Play!</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">If Play Protect shows a warning, tap “More details” and then “Install anyway”.</p></div>
+</li>
+</ol>
+</div>
+</section>
+
+<!-- CTA + INSPIRATION -->
+<section style="padding: 0 24px 96px">
+<div style="max-width: 1132px; margin: 0 auto; background: #3A3452; color: #F4ECF4; border-radius: 32px; padding: clamp(40px, 6vw, 72px); display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px">
+<h2 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: clamp(36px, 5vw, 56px); line-height: 1.05; color: #FFFFFF">Follow Candil’s lantern</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; max-width: 520px; color: #E4DAEA">Free, no ads, offline. Just you, the mist and the right point of view.</p>
+<a href="../EcosDeBruma.apk" download="EcosDeBruma.apk" style="display: inline-flex; align-items: center; gap: 12px; text-decoration: none; background: #F7D9CB; color: #3A3452; padding: 16px 30px; border-radius: 999px; font-size: 17px; font-weight: 600">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 20h16"/></svg>
+Download Ecos de Bruma
+</a>
+<p style="margin: 8px 0 0; font-size: 14px; line-height: 1.6; max-width: 620px; color: #D6CBE0">Inspired by <em>Monument Valley</em> by ustwo games. Ecos de Bruma is an independent project with original characters, levels and art, not affiliated with or endorsed by ustwo games.</p>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #EAD6CC">
+<div style="max-width: 1180px; margin: 0 auto; padding: 28px 24px; font-size: 14px; color: #6E6585">
+<span>© 2026 Ecos de Bruma</span>
+</div>
+</footer>
+
+</div>
+
+</body>
+</html>
